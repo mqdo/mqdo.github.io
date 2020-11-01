@@ -146,10 +146,6 @@ article ul {
     font-style: italic;
 }
 
-#rep-c, #rep-cpp, #rep-js, #rep-html, #rep-css {
-    display: none;
-}
-
 #me {
     border-radius: 100%;
 }
