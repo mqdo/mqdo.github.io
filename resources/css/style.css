@@ -202,3 +202,42 @@ article ul {
 #contact {
     grid-column: 3 / 9;
 }
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        height: 1200px;
+        grid-template-rows: 95px 1fr 95px;
+    }
+
+    header, footer {
+        height: 95px;
+    }
+
+    main {
+        grid-template-rows: repeat(9, 90px);
+        grid-template-columns: repeat(8, 1fr);
+        gap: 5px;
+    }
+
+    nav {
+        grid-row: 5 / 10;
+        grid-column: 1 / 3;
+    }
+
+    figure {
+        grid-row: 1 / 4;
+        grid-column: 1 / 3;
+    }
+
+    #skills {
+        grid-template-rows: 94px 120px;
+    }
+
+    #skills p {
+        font-size: .7rem;
+    }
+}
